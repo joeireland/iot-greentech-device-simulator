@@ -30,14 +30,6 @@ function onWebSocketConnect(ws, req) {
 
   flash();
   beep();
-
-  blue(1);
-  setTimeout(() => { blue(0); }, 1000);
-
-  display('Idle', 100, 10, 'green');
-  setTimeout(() => {   display('Detected', 5, 10, 'blue', 5); }, 3000);
-  setTimeout(() => {   display('Filling', 2, 10, 'red', 94); }, 5000);
-  setTimeout(() => {   display('Idle', 100, 11, 'green'); }, 10000);
 }
 
 function onWebSocketMessage(message) {
