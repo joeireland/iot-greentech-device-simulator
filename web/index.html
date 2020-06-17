@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual IoT Device</title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/dot-luv/jquery-ui.min.css">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+
+  </body>
+    <div>
+      <img id="bg"   src="/images/grove-pi-built.png">
+      <img id="blue" src="/images/blue-led.png">
+      <img id="red"  src="/images/red-led.png">
+      <div id="lcd">
+        192.168.211.93
+      </div>
+      <div id="angle">
+        <div id="slider-handle-angle" class="ui-slider-handle"></div>
+      </div>
+      <div id="proximity">
+        <div id="slider-handle-proximity" class="ui-slider-handle"></div>
+      </div>
+      <audio id="buzzer">
+        <source src="https://www.soundjay.com/button/beep-11.mp3" type="audio/mpeg">
+      </audio>
+      <div id="dialog" title="Virtual IoT Device">
+        Welcome to the virtual IoT device. It simulates the hardware of the Raspberry Pi/Grove Pi+ sensor board in a configuration used by the AWS IoT GreenTech Workshop - https://github.com/joeireland/iot-greentech-workshop
+      </div>
+    </div>
+  </body>
+</html>

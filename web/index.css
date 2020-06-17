@@ -1,0 +1,62 @@
+#bg {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#red {
+  filter: grayscale(100%);
+  position: absolute;
+  top: 374px;
+  left: 490px;
+}
+
+#blue {
+  filter: grayscale(100%);
+  position: absolute;
+  top: 214px;
+  left: 537px;
+}
+
+#lcd {
+  position: absolute;
+  padding: 5px;
+  font: 18px Arial;
+  background-color: #55DF33;
+  width: 200px;
+  height: 40px;
+  top: 34px;
+  left: 230px;
+}
+
+#angle {
+  position: absolute;
+  width: 180px;
+  top: 630px;
+  left: 200px;
+}
+
+#proximity {
+  position: absolute;
+  width: 180px;
+  top: 380px;
+  left: 30px;
+}
+
+#slider-handle-proximity {
+  width: 2em;
+  height: 1.5em;
+  top: 50%;
+  margin-top: -.8em;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+#slider-handle-angle {
+  width: 2em;
+  height: 1.5em;
+  top: 50%;
+  margin-top: -.8em;
+  text-align: center;
+  line-height: 1.6em;
+}
