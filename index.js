@@ -2,7 +2,6 @@ const express  = require('express');
 const http     = require('http');
 const minimist = require('minimist');
 const WS       = require('ws');
-const { text } = require('express');
 
 const DEFAULT_PORT = 8080;
 
